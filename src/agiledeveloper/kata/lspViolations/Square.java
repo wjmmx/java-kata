@@ -1,14 +1,19 @@
 package agiledeveloper.kata.lspViolations;
 
-public class Square extends Rectangle{
-    @Override
-    public void setBreadth(int breadth) {
-        super.setBreadth(breadth);
-        super.setLength(breadth);
+public class Square extends Shape{
+
+
+    private int side;
+
+    public int getSide() {
+        return side;
     }
-    @Override
-    public void setLength(int length) {
-        super.setLength(length);
-        super.setBreadth(length);
+
+    public void setSide(int side) {
+        this.side = side;
+    }
+
+    public int getArea() {
+        return this.side * this.side;
     }
 }

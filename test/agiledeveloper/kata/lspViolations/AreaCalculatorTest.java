@@ -16,7 +16,7 @@ public class AreaCalculatorTest {
 
     @Test
     public void areaIs36forSquare4asLength9asBreadth() {
-        Rectangle rectangle = new Square();
+        Rectangle rectangle = new Rectangle();
         rectangle.setLength(4);
         rectangle.setBreadth(9);
         assertEquals(36, rectangle.getArea());

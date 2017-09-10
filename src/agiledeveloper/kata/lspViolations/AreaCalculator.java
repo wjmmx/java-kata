@@ -8,6 +8,6 @@ public class AreaCalculator {
 
     public static int CalculateArea(Square s)
     {
-        return s.getLength() * s.getBreadth();
+        return s.getSide() * s.getSide();
     }
 }

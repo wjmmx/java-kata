@@ -1,6 +1,6 @@
 package agiledeveloper.kata.lspViolations;
 
-public class Rectangle {
+public class Rectangle extends Shape {
     private int length;
     private int breadth;
     public int getLength() {

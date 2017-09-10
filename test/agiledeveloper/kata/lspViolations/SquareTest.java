@@ -16,27 +16,27 @@ public class SquareTest {
 
     @Test
     public void areaIs36for6asBreadth() {
-        square.setBreadth(6);
+        square.setSide(6);
         assertEquals(36, square.getArea());
     }
 
     @Test
     public void areaIs36for6asLength() {
-        square.setLength(6);
+        square.setSide(6);
         assertEquals(36,square.getArea());
     }
 
     @Test
     public void areaIs49for6asLength7asBreadth() {
-        square.setLength(6);
-        square.setBreadth(7);
+        square.setSide(6);
+        square.setSide(7);
         assertEquals(49,square.getArea());
     }
 
     @Test
     public void areaIs36for7asBreadth6asLength() {
-        square.setBreadth(7);
-        square.setLength(6);
+        square.setSide(7);
+        square.setSide(6);
         assertEquals(36,square.getArea());
     }
 }
